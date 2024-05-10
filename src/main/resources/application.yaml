@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: webapp
+
+tesseract-ocr:
+  tessdata:
+    local: target/tessdata{mode}/{language}.traineddata
+    remote: https://github.com/tesseract-ocr/tessdata{mode}/raw/main/{language}.traineddata
